@@ -29,5 +29,5 @@ A simple JavaScript-based To-Do List web application that lets you:
 ---
 
 ## 👨‍💻 Author:
-- Your Name ([@yourgithubusername](https://github.com/Aritra2002-bit))
+- Your Name ([Aritra2002-bit](https://github.com/Aritra2002-bit))
 
