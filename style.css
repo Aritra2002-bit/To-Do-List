@@ -1,0 +1,147 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('background.jpg'); /* replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    color: #fff;
+}
+
+/* Container styling */
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    padding: 30px 20px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Heading styling */
+.input-container h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Input field and button container */
+.input-container {
+    width: 100%;
+}
+
+/* Text input styling */
+.input-container input[type="text"] {
+    width: 65%;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-container input[type="text"]:focus {
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+/* Add button styling */
+.input-container input[type="button"] {
+    padding: 12px 26px;
+    background-color: #3da33d;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-left: 8px;
+}
+
+.input-container input[type="button"]:hover {
+    background-color: #4ec14e;
+    transform: translateY(-2px);
+}
+
+/* Task list container */
+ul {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Individual task item styling */
+ul li {
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 14px 18px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+ul li:hover {
+    background-color: #e0e0e0;
+    transform: translateX(5px);
+}
+
+/* Task text */
+ul li p {
+    flex-grow: 1;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+/* Buttons inside task items */
+.btn {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+/* Delete and Edit buttons */
+.deleteBtn {
+    color: #ff3b3b;
+}
+
+.deleteBtn:hover {
+    color: #e60000;
+}
+
+.editBtn {
+    color: #28a745;
+}
+
+.editBtn:hover {
+    color: #1d7a32;
+}
